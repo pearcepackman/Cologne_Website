@@ -1,0 +1,146 @@
+@font-face {
+    font-family: "Kalnia";
+    src: url(../fonts/Kalnia-Regular.ttf);
+}
+
+
+@media (min-width: 320px)
+{
+    .NavBar {
+        margin: 0px;
+        /*background: linear-gradient(0deg, rgba(212,212,212,0) 0%, rgba(206,53,53,0.6) 100%);*/
+        color:antiquewhite;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 15px 15px;
+        text-decoration: none;
+        
+        
+        
+        
+    }
+    .Logo {
+        position: absolute;
+        left: 2.5%;
+        font-family: "Kalnia";
+        top: 10px;
+        color: rgb(238, 238, 238);
+        
+    }
+    .About {
+        position: absolute;
+        left: 25%;
+        top: 17px;
+        font-family: "Kalnia";
+        border-radius: 1em;
+        font-size: 12px;
+        padding: .1em 1.3em;
+        margin-left:10px;
+        text-decoration: none;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        opacity: .9;
+        background-color: rgb(238, 238, 238);
+        
+    }
+
+    .Awards{
+        position:absolute;
+        left: 50%;
+        top: 17px;
+        font-family: "Kalnia";
+        border-radius: 1em;
+        border: none;
+        outline: none;
+        font-size: 12px;
+        padding: .1em 1.3em;
+        text-decoration: none;
+        cursor: pointer;
+        opacity: .9;
+        background-color: rgb(238, 238, 238);
+    }
+
+    .Home {
+        position: absolute;
+        left: 75%;
+        top: 17px;
+        font-family: "Kalnia";
+        border-radius: 1em;
+        font-size: 12px;
+        padding: .1em 1.3em;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        opacity: .9;
+        background-color: rgb(238, 238, 238);
+    }
+
+}
+
+@media (min-width: 1024px)
+{
+    .NavBar {
+        margin-top: 10px;
+        padding: 0px;
+        background-color: #686868;
+        color:antiquewhite;
+        display: flex;
+        text-align: center;
+        justify-content: space-evenly;
+        
+        
+    }
+
+    .Awards{
+        position:absolute;
+        left: auto;
+        top: 17px;
+        font-family: "Kalnia";
+        border-radius: 1em;
+        border: none;
+        outline: none;
+        font-size: 18px;
+        padding: .1em 1.3em;
+        text-decoration: none;
+        cursor: pointer;
+        opacity: .9;
+        background-color: rgb(238, 238, 238);
+    }
+
+    .About {
+        position: absolute;
+        left: 20%;
+        top: 17px;
+        font-family: "Kalnia";
+        border-radius: 1em;
+        font-size: 18px;
+        padding: .1em 1.3em;
+        margin-left:10px;
+        text-decoration: none;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        opacity: .9;
+        background-color: rgb(238, 238, 238);
+        
+    }
+
+    .Home {
+        position: absolute;
+        left: 74%;
+        top: 17px;
+        font-family: "Kalnia";
+        border-radius: 1em;
+        font-size: 18px;
+        padding: .1em 1.3em;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        opacity: .9;
+        background-color: rgb(238, 238, 238);
+    }
+}
+
+

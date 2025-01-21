@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "Kalnia";
+    src: url(../fonts/Kalnia-Regular.ttf);
+    font-family: "PlayfairBold";
+    src: url(../fonts/PlayfairDisplay-SemiBold.ttf);
+    
+}
+
+@media (min-width: 320px)
+{
+    .AboutPage {
+        background: linear-gradient(0deg, rgba(74,74,74,1) 0%, rgba(32,32,32,1) 100%);
+
+        width: 100vw;
+        height: 100vh;
+        overflow:auto;
+        margin-left: auto;
+        margin-right: auto;
+        
+
+    }
+    
+
+    .Title {
+        font-family: "PlayfairBold";
+        padding-top: 12px;
+        color: rgb(238, 238, 238);
+        font-size: 34px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .SubsectionTitle {
+        font-family: "PlayfairBold";
+        color: rgb(238, 238, 238);
+        font-size: 25px;
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .SubsectionDesc{
+        font-family: "PlayfairBold";
+        color: rgb(211, 211, 211);
+        font-size: 12px;
+        text-align: left;
+        margin-left: 25px;
+        margin-right: 25px;
+        line-height: 1.5;
+    }
+}
+
+@media (min-width: 1024px){
+
+    .AboutPage {
+        background: linear-gradient(0deg, rgba(74,74,74,1) 0%, rgba(32,32,32,1) 100%);
+
+        width: 100vw;
+        height: 100vh;
+        overflow:auto;
+        margin-left: auto;
+        margin-right: auto;
+        
+
+    }
+    
+
+    .Title {
+        font-family: "PlayfairBold";
+        padding-top: 45px;
+        color: rgb(238, 238, 238);
+        font-size: 55px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 40px;
+
+    }
+
+    .SubsectionTitle {
+        font-family: "PlayfairBold";
+        color: rgb(238, 238, 238);
+        font-size: 50px;
+        text-align: left;
+        margin-left: 120px;
+        margin-top: 30px;
+    }
+
+    .SubsectionDesc{
+        font-family: "PlayfairBold";
+        color: rgb(211, 211, 211);
+        font-size: 18px;
+        text-align: left;
+        margin-left: 125px;
+        margin-right: 120px;
+        line-height: 1.6;
+    }
+
+
+}

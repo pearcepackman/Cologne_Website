@@ -1,0 +1,175 @@
+@font-face {
+    font-family: "Kalnia";
+    src: url(../fonts/Kalnia-Regular.ttf);
+    font-family: "PlayfairBold";
+    src: url(../fonts/PlayfairDisplay-SemiBold.ttf);
+    
+}
+
+
+/* Making for mobile */
+@media (min-width: 320px)
+{
+    .HomePage {
+        background: linear-gradient(0deg, rgba(74,74,74,1) 0%, rgba(32,32,32,1) 100%);
+
+
+        width: 100vw;
+        margin-left: auto;
+        margin-right: auto;
+        height: 100vh;
+        overflow: auto;
+    }
+    
+    .pics {
+        height:225px;
+        width:225px;
+        border-radius: 35px;
+    }
+
+    .Title {
+        font-family: "PlayfairBold";
+        padding-top: 12px;
+        color: rgb(238, 238, 238);
+        font-size: 34px;
+
+    }
+
+    .CollectionTitle {
+        font-family: "PlayfairBold";
+        color: rgb(238, 238, 238);
+        font-size: 25px;
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+
+    .WinterDesc {
+        font-family: "PlayfairBold";
+        color: rgb(211, 211, 211);
+        font-size: 12px;
+        text-align: left;
+        margin-left: 25px;
+    }
+
+    .PicContainer {
+        overflow: auto;
+        white-space: nowrap;
+        margin-left: 20px;
+        margin-right:20px;
+        margin-top: 10px;
+        display: flex;
+        gap: 35px;
+        padding-bottom: 10px;
+        
+    }
+
+    .CologneTitle {
+        margin-top: -25px;
+        color:rgb(238, 238, 238);
+        font-family: "PlayfairBold";
+        font-size: 20px;
+    }
+
+    .CologneDesc {
+        margin-top: -15px;
+        color: rgb(238, 238, 238);
+        font-family: "Kalnia";
+        font-size: 10px;
+        text-align: center;
+
+    }
+
+
+}
+
+
+
+/* Full size desktops, 1920x1080 */
+@media (min-width: 1024px){
+
+    ::-webkit-scrollbar {
+        width: 8px;
+        
+        
+    }
+
+    ::-webkit-scrollbar-track {
+        display:none;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: rgb(26, 26, 26);
+        border-radius: 5px;
+    }
+
+    .HomePage {
+        background: linear-gradient(0deg, rgba(74,74,74,1) 0%, rgba(32,32,32,1) 100%);
+        width: 100vw;
+        margin-left: auto;
+        margin-right: auto;
+        height: 100vh;
+    }
+    
+    .pics {
+        height:350px;
+        width:350px;
+        border-radius: 35px;
+    }
+
+    .Title {
+        font-family: "PlayfairBold";
+        margin-top: 40px;
+        color: rgb(238, 238, 238);
+        font-size: 55px;
+        text-align: center;
+
+    }
+
+    .CollectionTitle {
+        font-family: "PlayfairBold";
+        color: rgb(238, 238, 238);
+        font-size: 50px;
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+
+    .WinterDesc {
+        font-family: "PlayfairBold";
+        color: rgb(211, 211, 211);
+        font-size: 20px;
+        text-align: left;
+        margin-left: 25px;
+    }
+
+    .CologneTitle {
+        margin-top: -60px;
+        color:rgb(238, 238, 238);
+        font-family: "PlayfairBold";
+        font-size: 42px;
+    }
+
+    .CologneDesc {
+        margin-top: -25px;
+        color: rgb(238, 238, 238);
+        font-family: "Kalnia";
+        font-size: 15px;
+        text-align: center;
+
+    }
+
+    .PicContainer {
+        overflow: auto;
+        white-space: nowrap;
+        padding-left: 10px;
+        
+        margin-top: 10px;
+        display: flex;
+        gap: 60px;
+        padding-bottom: 10px;
+    }
+    
+
+}
+
